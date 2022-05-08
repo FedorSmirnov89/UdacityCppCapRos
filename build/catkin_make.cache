@@ -1,0 +1,2 @@
+turtle_follower
+-DCATKIN_DEVEL_PREFIX=/home/fedor/Udacity/UdacityCppCapRos/devel -DCMAKE_INSTALL_PREFIX=/home/fedor/Udacity/UdacityCppCapRos/install -G Unix Makefiles

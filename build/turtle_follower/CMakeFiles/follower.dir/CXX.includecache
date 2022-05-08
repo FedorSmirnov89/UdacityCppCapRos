@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.cpp
+Calculations.h
+/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.h
+cmath
+-
+math.h
+-
+
+/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.h
+
