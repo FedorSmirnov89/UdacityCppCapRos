@@ -19,8 +19,7 @@ void TurtleController::controlCallBack(const turtlesim::Pose::ConstPtr &msg) {
   float targetY = msg->y;
 
   std::vector<std::future<void>> futureVector = vector<std::future<void>>();
-
-  // remember to parallelize this one
+  
   for (Turtle &turtle : this->managedTurtles) {
     futureVector.emplace_back(
         std::async(&Turtle::chaseStep, &turtle, targetX, targetY, handle));    

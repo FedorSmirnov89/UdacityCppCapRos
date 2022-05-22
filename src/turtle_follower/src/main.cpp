@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author Fedor Smirnov
+ * @brief Main file of the turtle_follower ROS node. Initializes ROS, prompts
+ * the user for configuration input, and then restores the default state of the
+ * board, spawns the controlled and the follower turtles, sets up the
+ * subscription of the controlled turtle's position, and keeps spinning as long
+ * as the node is being executed.
+ */
 
 #include "ConfigReader.h"
 #include "Constants.h"

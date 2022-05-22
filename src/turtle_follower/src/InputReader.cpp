@@ -1,8 +1,12 @@
+/**
+ * @file InputReader.cpp
+ * See InputReader.h
+ */
 
 #include "InputReader.h"
+#include <ios>
 #include <iostream>
 #include <limits>
-#include <ios>
 #include <string>
 
 using std::cin;
@@ -20,17 +24,17 @@ int getDifficulty() {
 
     cin >> userChoice;
 
-    if (!cin.fail()){
-        if (userChoice == 1 || userChoice == 2 || userChoice == 3){
-            return userChoice;
-        }else{
-            cout << "Invalid entry. The only valid choices are 1, 2, or 3.\n\n";
-        }
-    }else{
-        cin.clear();
-        cin >> wrongInput;
-        cout << "you entered \"" << wrongInput << "\"\n";
-        cout << "Please enter a number, not a string.\n\n";
-    }    
+    if (!cin.fail()) {
+      if (userChoice == 1 || userChoice == 2 || userChoice == 3) {
+        return userChoice;
+      } else {
+        cout << "Invalid entry. The only valid choices are 1, 2, or 3.\n\n";
+      }
+    } else {
+      cin.clear();
+      cin >> wrongInput;
+      cout << "you entered \"" << wrongInput << "\"\n";
+      cout << "Please enter a number, not a string.\n\n";
+    }
   }
 }

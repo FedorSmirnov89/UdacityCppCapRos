@@ -1,3 +1,9 @@
+/**
+ * @file Constants.h
+ * @author Fedor Smirnov
+ * @brief Header file used to set the constants.
+ */
+
 #ifndef CONSTANTS_H
 #define CONSTANTS_H 1
 
@@ -9,7 +15,6 @@ using std::string;
 const int loopRateNodes = 100;
 
 const int speedFollowOne = 10;
-
 
 // traits of the controlled turtle
 const string controlledTurtleName = "turtle1";
@@ -23,4 +28,3 @@ const string mediumPath = "./src/turtle_follower/configs/medium.txt";
 const string hardPath = "./src/turtle_follower/configs/hard.txt";
 
 #endif
-

@@ -1,3 +1,10 @@
+/**
+ * @file InputReader.h
+ * @author Fedor Smirnov
+ * @brief Prompts the user for a difficulty setting and returns the value chosen
+ * by the user.
+ *
+ */
 
 #ifndef INPUT_READER
 #define INPUT_READER 1
