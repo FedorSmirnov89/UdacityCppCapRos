@@ -195,7 +195,7 @@ include_directories(
 ## Testing ##
 #############
 
-add_executable(follower src/main.cpp src/RosCommunication.cpp src/Turtle.cpp src/Calculations.cpp)
+add_executable(follower src/main.cpp src/RosCommunication.cpp src/Turtle.cpp src/Calculations.cpp src/ConfigReader.cpp src/InputReader.cpp src/TurtleController.cpp)
 target_link_libraries(follower ${catkin_LIBRARIES})
 #add_dependencies(talker beginner_tutorial_generate_messages_cpp)
 

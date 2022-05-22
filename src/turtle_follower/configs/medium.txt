@@ -1,0 +1,2 @@
+1.1 1.1 0 0.05 0.05 mediumFollower1
+5.1 1.1 0 0.05 0.05 mediumFollower2

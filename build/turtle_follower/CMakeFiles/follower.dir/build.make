@@ -109,12 +109,54 @@ turtle_follower/CMakeFiles/follower.dir/src/Calculations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/follower.dir/src/Calculations.cpp.s"
 	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.cpp -o CMakeFiles/follower.dir/src/Calculations.cpp.s
 
+turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o: turtle_follower/CMakeFiles/follower.dir/flags.make
+turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o: /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fedor/Udacity/UdacityCppCapRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/follower.dir/src/ConfigReader.cpp.o -c /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp
+
+turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/follower.dir/src/ConfigReader.cpp.i"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp > CMakeFiles/follower.dir/src/ConfigReader.cpp.i
+
+turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/follower.dir/src/ConfigReader.cpp.s"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp -o CMakeFiles/follower.dir/src/ConfigReader.cpp.s
+
+turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o: turtle_follower/CMakeFiles/follower.dir/flags.make
+turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o: /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fedor/Udacity/UdacityCppCapRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/follower.dir/src/InputReader.cpp.o -c /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp
+
+turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/follower.dir/src/InputReader.cpp.i"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp > CMakeFiles/follower.dir/src/InputReader.cpp.i
+
+turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/follower.dir/src/InputReader.cpp.s"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp -o CMakeFiles/follower.dir/src/InputReader.cpp.s
+
+turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o: turtle_follower/CMakeFiles/follower.dir/flags.make
+turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o: /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fedor/Udacity/UdacityCppCapRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/follower.dir/src/TurtleController.cpp.o -c /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp
+
+turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/follower.dir/src/TurtleController.cpp.i"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp > CMakeFiles/follower.dir/src/TurtleController.cpp.i
+
+turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/follower.dir/src/TurtleController.cpp.s"
+	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp -o CMakeFiles/follower.dir/src/TurtleController.cpp.s
+
 # Object files for target follower
 follower_OBJECTS = \
 "CMakeFiles/follower.dir/src/main.cpp.o" \
 "CMakeFiles/follower.dir/src/RosCommunication.cpp.o" \
 "CMakeFiles/follower.dir/src/Turtle.cpp.o" \
-"CMakeFiles/follower.dir/src/Calculations.cpp.o"
+"CMakeFiles/follower.dir/src/Calculations.cpp.o" \
+"CMakeFiles/follower.dir/src/ConfigReader.cpp.o" \
+"CMakeFiles/follower.dir/src/InputReader.cpp.o" \
+"CMakeFiles/follower.dir/src/TurtleController.cpp.o"
 
 # External object files for target follower
 follower_EXTERNAL_OBJECTS =
@@ -123,6 +165,9 @@ follower_EXTERNAL_OBJECTS =
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/RosCommunication.cpp.o
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/Turtle.cpp.o
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/Calculations.cpp.o
+/home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o
+/home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o
+/home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/build.make
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: /opt/ros/noetic/lib/libroscpp.so
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: /usr/lib/x86_64-linux-gnu/libpthread.so
@@ -142,7 +187,7 @@ follower_EXTERNAL_OBJECTS =
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower: turtle_follower/CMakeFiles/follower.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fedor/Udacity/UdacityCppCapRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fedor/Udacity/UdacityCppCapRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower"
 	cd /home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/follower.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

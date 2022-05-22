@@ -434,6 +434,60 @@ src/Calculations.cpp.s:
 	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/Calculations.cpp.s
 .PHONY : src/Calculations.cpp.s
 
+src/ConfigReader.o: src/ConfigReader.cpp.o
+
+.PHONY : src/ConfigReader.o
+
+# target to build an object file
+src/ConfigReader.cpp.o:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o
+.PHONY : src/ConfigReader.cpp.o
+
+src/ConfigReader.i: src/ConfigReader.cpp.i
+
+.PHONY : src/ConfigReader.i
+
+# target to preprocess a source file
+src/ConfigReader.cpp.i:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.i
+.PHONY : src/ConfigReader.cpp.i
+
+src/ConfigReader.s: src/ConfigReader.cpp.s
+
+.PHONY : src/ConfigReader.s
+
+# target to generate assembly for a file
+src/ConfigReader.cpp.s:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.s
+.PHONY : src/ConfigReader.cpp.s
+
+src/InputReader.o: src/InputReader.cpp.o
+
+.PHONY : src/InputReader.o
+
+# target to build an object file
+src/InputReader.cpp.o:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o
+.PHONY : src/InputReader.cpp.o
+
+src/InputReader.i: src/InputReader.cpp.i
+
+.PHONY : src/InputReader.i
+
+# target to preprocess a source file
+src/InputReader.cpp.i:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.i
+.PHONY : src/InputReader.cpp.i
+
+src/InputReader.s: src/InputReader.cpp.s
+
+.PHONY : src/InputReader.s
+
+# target to generate assembly for a file
+src/InputReader.cpp.s:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.s
+.PHONY : src/InputReader.cpp.s
+
 src/RosCommunication.o: src/RosCommunication.cpp.o
 
 .PHONY : src/RosCommunication.o
@@ -487,6 +541,33 @@ src/Turtle.s: src/Turtle.cpp.s
 src/Turtle.cpp.s:
 	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/Turtle.cpp.s
 .PHONY : src/Turtle.cpp.s
+
+src/TurtleController.o: src/TurtleController.cpp.o
+
+.PHONY : src/TurtleController.o
+
+# target to build an object file
+src/TurtleController.cpp.o:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o
+.PHONY : src/TurtleController.cpp.o
+
+src/TurtleController.i: src/TurtleController.cpp.i
+
+.PHONY : src/TurtleController.i
+
+# target to preprocess a source file
+src/TurtleController.cpp.i:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.i
+.PHONY : src/TurtleController.cpp.i
+
+src/TurtleController.s: src/TurtleController.cpp.s
+
+.PHONY : src/TurtleController.s
+
+# target to generate assembly for a file
+src/TurtleController.cpp.s:
+	cd /home/fedor/Udacity/UdacityCppCapRos/build && $(MAKE) -f turtle_follower/CMakeFiles/follower.dir/build.make turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.s
+.PHONY : src/TurtleController.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -547,12 +628,21 @@ help:
 	@echo "... src/Calculations.o"
 	@echo "... src/Calculations.i"
 	@echo "... src/Calculations.s"
+	@echo "... src/ConfigReader.o"
+	@echo "... src/ConfigReader.i"
+	@echo "... src/ConfigReader.s"
+	@echo "... src/InputReader.o"
+	@echo "... src/InputReader.i"
+	@echo "... src/InputReader.s"
 	@echo "... src/RosCommunication.o"
 	@echo "... src/RosCommunication.i"
 	@echo "... src/RosCommunication.s"
 	@echo "... src/Turtle.o"
 	@echo "... src/Turtle.i"
 	@echo "... src/Turtle.s"
+	@echo "... src/TurtleController.o"
+	@echo "... src/TurtleController.i"
+	@echo "... src/TurtleController.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

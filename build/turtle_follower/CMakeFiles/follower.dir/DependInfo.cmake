@@ -5,8 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/Calculations.cpp.o"
+  "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o"
+  "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o"
   "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/RosCommunication.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/RosCommunication.cpp.o"
   "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Turtle.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/Turtle.cpp.o"
+  "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o"
   "/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/main.cpp" "/home/fedor/Udacity/UdacityCppCapRos/build/turtle_follower/CMakeFiles/follower.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

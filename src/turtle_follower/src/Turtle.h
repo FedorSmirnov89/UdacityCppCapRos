@@ -19,23 +19,9 @@
 
 #include "turtlesim/Pose.h"
 
-
 using std::string;
 
 class Turtle {
-private:
-  string name;
-  float speed;
-  float speed_ang;
-  float x;
-  float y;
-  float theta;
-
-  float x_followed;
-  float y_followed;
-  float theta_followed;
-
-  bool chasing;
 
 public:
   /**
@@ -47,15 +33,19 @@ public:
    * @param init_y the initial y position
    * @param speed the movement speed of the turtle
    */
-  Turtle(ros ::NodeHandle handle, string name, float init_x, float init_y,
+  Turtle(ros::NodeHandle handle, string name, float init_x, float init_y,
          float theta, float speed, float speed_ang);
   ~Turtle();
 
+  void chaseStep(float x_followed, float y_followed, ros::NodeHandle handle);
+
 private:
-  void chaseLoop(ros::NodeHandle handle);
-  void chaseStep(ros::NodeHandle handle);
-  void updatePositionFollowed(ros::NodeHandle handle);
-  void positionPublishCallBack(const turtlesim::Pose::ConstPtr &msg);
+  string name;
+  float speed;
+  float speed_ang;
+  float x;
+  float y;
+  float theta;
 };
 
 #endif

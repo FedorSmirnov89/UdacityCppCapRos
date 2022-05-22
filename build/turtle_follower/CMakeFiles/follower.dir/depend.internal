@@ -4,6 +4,12 @@
 turtle_follower/CMakeFiles/follower.dir/src/Calculations.cpp.o
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.cpp
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.h
+turtle_follower/CMakeFiles/follower.dir/src/ConfigReader.cpp.o
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.cpp
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.h
+turtle_follower/CMakeFiles/follower.dir/src/InputReader.cpp.o
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.h
 turtle_follower/CMakeFiles/follower.dir/src/RosCommunication.cpp.o
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Constants.h
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/RosCommunication.cpp
@@ -143,10 +149,76 @@ turtle_follower/CMakeFiles/follower.dir/src/Turtle.cpp.o
  /opt/ros/noetic/include/turtlesim/Pose.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
+turtle_follower/CMakeFiles/follower.dir/src/TurtleController.cpp.o
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Turtle.h
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.cpp
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.h
+ /opt/ros/noetic/include/ros/advertise_options.h
+ /opt/ros/noetic/include/ros/advertise_service_options.h
+ /opt/ros/noetic/include/ros/assert.h
+ /opt/ros/noetic/include/ros/builtin_message_traits.h
+ /opt/ros/noetic/include/ros/common.h
+ /opt/ros/noetic/include/ros/console.h
+ /opt/ros/noetic/include/ros/console_backend.h
+ /opt/ros/noetic/include/ros/datatypes.h
+ /opt/ros/noetic/include/ros/duration.h
+ /opt/ros/noetic/include/ros/exception.h
+ /opt/ros/noetic/include/ros/exceptions.h
+ /opt/ros/noetic/include/ros/forwards.h
+ /opt/ros/noetic/include/ros/init.h
+ /opt/ros/noetic/include/ros/macros.h
+ /opt/ros/noetic/include/ros/master.h
+ /opt/ros/noetic/include/ros/message.h
+ /opt/ros/noetic/include/ros/message_event.h
+ /opt/ros/noetic/include/ros/message_forward.h
+ /opt/ros/noetic/include/ros/message_operations.h
+ /opt/ros/noetic/include/ros/message_traits.h
+ /opt/ros/noetic/include/ros/names.h
+ /opt/ros/noetic/include/ros/node_handle.h
+ /opt/ros/noetic/include/ros/param.h
+ /opt/ros/noetic/include/ros/parameter_adapter.h
+ /opt/ros/noetic/include/ros/platform.h
+ /opt/ros/noetic/include/ros/publisher.h
+ /opt/ros/noetic/include/ros/rate.h
+ /opt/ros/noetic/include/ros/ros.h
+ /opt/ros/noetic/include/ros/roscpp_serialization_macros.h
+ /opt/ros/noetic/include/ros/rostime_decl.h
+ /opt/ros/noetic/include/ros/serialization.h
+ /opt/ros/noetic/include/ros/serialized_message.h
+ /opt/ros/noetic/include/ros/service.h
+ /opt/ros/noetic/include/ros/service_callback_helper.h
+ /opt/ros/noetic/include/ros/service_client.h
+ /opt/ros/noetic/include/ros/service_client_options.h
+ /opt/ros/noetic/include/ros/service_server.h
+ /opt/ros/noetic/include/ros/service_traits.h
+ /opt/ros/noetic/include/ros/single_subscriber_publisher.h
+ /opt/ros/noetic/include/ros/spinner.h
+ /opt/ros/noetic/include/ros/static_assert.h
+ /opt/ros/noetic/include/ros/steady_timer.h
+ /opt/ros/noetic/include/ros/steady_timer_options.h
+ /opt/ros/noetic/include/ros/subscribe_options.h
+ /opt/ros/noetic/include/ros/subscriber.h
+ /opt/ros/noetic/include/ros/subscription_callback_helper.h
+ /opt/ros/noetic/include/ros/this_node.h
+ /opt/ros/noetic/include/ros/time.h
+ /opt/ros/noetic/include/ros/timer.h
+ /opt/ros/noetic/include/ros/timer_options.h
+ /opt/ros/noetic/include/ros/topic.h
+ /opt/ros/noetic/include/ros/transport_hints.h
+ /opt/ros/noetic/include/ros/types.h
+ /opt/ros/noetic/include/ros/wall_timer.h
+ /opt/ros/noetic/include/ros/wall_timer_options.h
+ /opt/ros/noetic/include/rosconsole/macros_generated.h
+ /opt/ros/noetic/include/turtlesim/Pose.h
+ /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
+ /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
 turtle_follower/CMakeFiles/follower.dir/src/main.cpp.o
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.h
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Constants.h
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.h
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/RosCommunication.h
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Turtle.h
+ /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/TurtleController.h
  /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/main.cpp
  /opt/ros/noetic/include/ros/advertise_options.h
  /opt/ros/noetic/include/ros/advertise_service_options.h

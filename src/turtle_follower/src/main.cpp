@@ -1,31 +1,58 @@
 
-#include "RosCommunication.h"
+#include "ConfigReader.h"
 #include "Constants.h"
+#include "InputReader.h"
+#include "RosCommunication.h"
 #include "Turtle.h"
+#include "TurtleController.h"
 
-int main(int argc, char **argv)
-{
-    // init ROS
-    ros::init(argc, argv, "turtle_followers");
-    ros::NodeHandle rosHandle;
+#include <iostream>
+#include <string>
 
-    // wipe the board so that we start in a controlled state
-    reset(rosHandle);
-    
-    
-    // spawn the turtle which will be controlled by our actions
+int main(int argc, char **argv) {
+  // init ROS
+  ros::init(argc, argv, "turtle_followers");
+  ros::NodeHandle rosHandle;
 
-    spawnControlledTurtle(rosHandle);
+  // Ask the user to provide a difficulty level
+  int chosenDifficulty = getDifficulty();
+  string configFilePath;
 
+  // Set the config file path resulting from the chosen difficulty
+  if (chosenDifficulty == 1) {
+    configFilePath = easyPath;
+  } else if (chosenDifficulty == 2) {
+    configFilePath = mediumPath;
+  } else {
+    configFilePath = hardPath;
+  }
 
-    // spawn the follower turtles
+  // Read the config file and get the follower settings
+  vector<turtle_info> followersInfo = readInput(configFilePath);
 
-    Turtle turtle(rosHandle, "follower", 1.1, 1.1, 0, 0.01, 0.01);
+  // START OF THE BOARD MANIPULATION
 
-    // test: teleport the follower turtle
+  // wipe the board so that we start in a controlled state
+  reset(rosHandle);
 
-    
+  // spawn the turtle which will be controlled by our actions
+  spawnControlledTurtle(rosHandle);
 
+  TurtleController controller(rosHandle);
 
-    return 0;
+  // spawn the follower turtles -- each turtle spawned in its own thread
+  for (turtle_info followerInfo : followersInfo) {
+    Turtle followerTurtle(rosHandle, followerInfo.name, followerInfo.x_pos,
+                          followerInfo.y_pos, followerInfo.thetha,
+                          followerInfo.speed, followerInfo.speed_ang);
+    controller.addManagedTurtle(std::move(followerTurtle));
+  }
+
+  // subscribe to the lead position and start spinning
+
+  ros::Subscriber sub = rosHandle.subscribe(
+      "/turtle1/pose", 1000, &TurtleController::controlCallBack, &controller);
+  ros::spin();
+
+  return 0;
 }

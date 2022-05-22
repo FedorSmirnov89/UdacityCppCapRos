@@ -2,8 +2,11 @@ file(REMOVE_RECURSE
   "/home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower"
   "/home/fedor/Udacity/UdacityCppCapRos/devel/lib/turtle_follower/follower.pdb"
   "CMakeFiles/follower.dir/src/Calculations.cpp.o"
+  "CMakeFiles/follower.dir/src/ConfigReader.cpp.o"
+  "CMakeFiles/follower.dir/src/InputReader.cpp.o"
   "CMakeFiles/follower.dir/src/RosCommunication.cpp.o"
   "CMakeFiles/follower.dir/src/Turtle.cpp.o"
+  "CMakeFiles/follower.dir/src/TurtleController.cpp.o"
   "CMakeFiles/follower.dir/src/main.cpp.o"
 )
 
