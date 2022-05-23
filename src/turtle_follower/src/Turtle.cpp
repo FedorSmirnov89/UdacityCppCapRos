@@ -1,3 +1,8 @@
+/**
+ * @file Turtle.cpp
+ * @author Fedor Smirnov
+ * @brief See "Turtle.h" for class and function comments.
+ */
 
 #include "Turtle.h"
 #include "Calculations.h"

@@ -36,12 +36,34 @@ void killControlledTurtle(ros::NodeHandle handle);
  */
 void spawnControlledTurtle(ros::NodeHandle handle);
 
-
+/**
+ * @brief Spawn a turtle on the given position.
+ *
+ * @param handle The ROS handle of this node
+ * @param name the name of the turtle
+ * @param x the x position
+ * @param y the y position
+ * @param theta the theta angle
+ */
 void spawnTurtle(ros::NodeHandle handle, string name, float x, float y,
                  float theta);
 
+/**
+ * @brief Resets the field to the default state.
+ *
+ * @param handle the ROS handle of this node
+ */
 void reset(ros::NodeHandle handle);
 
+/**
+ * @brief Sets the given turtle to a new position.
+ *
+ * @param handle the ROS handle of this node
+ * @param name the name of the turtle
+ * @param x the new x position
+ * @param y the new y position
+ * @param theta the new theta angle
+ */
 void setPosition(ros::NodeHandle handle, string name, float x, float y,
                  float theta);
 

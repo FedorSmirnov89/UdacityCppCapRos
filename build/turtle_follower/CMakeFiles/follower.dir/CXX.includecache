@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.cpp
+Calculations.h
+/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.h
+cmath
+-
+math.h
+-
+
 /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Calculations.h
 
 /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/ConfigReader.h
@@ -15,18 +23,6 @@ string
 -
 
 /home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/Constants.h
-string
--
-
-/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.cpp
-InputReader.h
-/home/fedor/Udacity/UdacityCppCapRos/src/turtle_follower/src/InputReader.h
-ios
--
-iostream
--
-limits
--
 string
 -
 

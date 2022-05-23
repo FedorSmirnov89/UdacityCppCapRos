@@ -1,3 +1,8 @@
+/**
+ * @file Calculations.cpp
+ * @author Fedor Smirnov
+ * @brief See the "Calculations.h" file for function comments.
+ */
 
 #include "Calculations.h"
 #include <cmath>

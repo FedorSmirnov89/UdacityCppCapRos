@@ -1,3 +1,9 @@
+/**
+ * @file RosCommunication.cpp
+ * @author Fedor Smirnov
+ * @brief See "RosCommunication.h" for file and function comments.
+ *
+ */
 
 #include "Constants.h"
 

@@ -1,3 +1,8 @@
+/**
+ * @file TurtleController.cpp
+ * @author Fedor Smirnov
+ * @brief See "TurtleController.h" for file and function comments.
+ */
 
 #include "TurtleController.h"
 #include <future>
@@ -19,10 +24,10 @@ void TurtleController::controlCallBack(const turtlesim::Pose::ConstPtr &msg) {
   float targetY = msg->y;
 
   std::vector<std::future<void>> futureVector = vector<std::future<void>>();
-  
+
   for (Turtle &turtle : this->managedTurtles) {
     futureVector.emplace_back(
-        std::async(&Turtle::chaseStep, &turtle, targetX, targetY, handle));    
+        std::async(&Turtle::chaseStep, &turtle, targetX, targetY, handle));
   }
 
   for (std::future<void> &ftr : futureVector) {

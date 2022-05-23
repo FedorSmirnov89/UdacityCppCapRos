@@ -1,3 +1,10 @@
+/**
+ * @file Calculations.h
+ * @author Fedor Smirnov
+ * @brief Header file containing calculation functions used throughout this
+ * project.
+ */
+
 #ifndef CALCULATIONS_H
 #define CALCULATIONS_H 1
 
