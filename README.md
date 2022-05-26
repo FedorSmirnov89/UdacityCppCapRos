@@ -19,6 +19,8 @@ Repository for the repository of the project submitted as the capstone of the Ud
 
 Basically the installation of ROS. Will write this as I go along getting the stuff to work on the virtual machine. But actually it should not be much more than the basic ROS installation.
 
+****
+
 ## Build Instructions
 Essentially:
 
@@ -26,6 +28,8 @@ Essentially:
 - Starting the turtleSim
 - Starting the turtleSim teleop
 - Starting the implemented follower module
+
+****
 
 ## Capstone Project Rubrics
 
