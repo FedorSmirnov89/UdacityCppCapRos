@@ -15,19 +15,61 @@ Repository for the repository of the project submitted as the capstone of the Ud
 
 ****
 
-## Installation
+## Installation and Build
+
+This section describes the steps necessary to install the ROS package which was developed in this project and build it within a Udacity workspace.
+
+1. ROS is already installed on Udacity workspaces
+2. Create a ROS workspace for the package. Open a terminal and enter the following commands (at the time of submission, the workspace had the 'kinetic' version of ROS installed):
+    ```
+        source /opt/ros/kinetic/setup.bash
+
+        mkdir -p ~/catkin_ws/src
+        cd ~/catkin_ws
+        catkin_make
+    ```
+3. Clone the project repository from GitHub, copy the ROS package into the created ROS workspace, set the environment variables, and compile the workspace:
+    ```
+        cd ~
+        git clone https://github.com/FedorSmirnov89/UdacityCppCapRos.git
+        cd ../catkin_ws/src
+        cp -r ../../UdacityCppCapRos/src/turtle_follower/ .
+        cd ~/catkin_ws
+        source devel/setup.sh
+        catkin_make
+    ```
+4. After this, the 'turtle_follower' package should be visible to ROS and you can proceed to running the program (next section).
 
 Basically the installation of ROS. Will write this as I go along getting the stuff to work on the virtual machine. But actually it should not be much more than the basic ROS installation.
 
 ****
 
-## Build Instructions
-Essentially:
+## Running the Program:
 
-- Starting up ROS-core
-- Starting the turtleSim
-- Starting the turtleSim teleop
-- Starting the implemented follower module
+This section contains a description how the program can be started within the Udacity workspace. This is done using multiple terminal windows, e.g., using the 'Terminator' application available in the workspace:
+
+1. Open up a terminal window and start 'roscore' by entering the following command:
+    ```
+        roscore
+    ```
+2. Open up ANOTHER terminal window and start a turtlesim node by entering the following command:
+    ```
+        rosrun turtlesim turtlesim
+    ```
+3. Open up ANOTHER terminal window and start the package used to control the turtle with the arrow keys:
+    ```
+        rosrun turltesim turtle_teleop_key
+    ```
+    In order to control the leading turtle, you will have to focus on the terminal where you executed this command, for example by clicking into the terminal window.
+4. Open up ANOTHER terminal window and start the package implemented within this capstone project by entering the following commands:
+    ```
+        cd ~/catkin_ws
+        source devel/setup.sh
+        rosrun turtle_follower follower
+    ```
+    The program will then prompt you to enter an integer to determine the difficulty of the chase. After that, it will spawn the corresponding number of follower turtles. You can then control the leading turtle by clicking into the teleop console window and using the arrow keys. The whole arrangement of the workspace could look like the screenshot shown below:
+
+![workspace screenshot](imgs/workspace.png)
 
 ****
 
