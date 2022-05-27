@@ -40,8 +40,6 @@ This section describes the steps necessary to install the ROS package which was 
     ```
 4. After this, the 'turtle_follower' package should be visible to ROS and you can proceed to running the program (next section).
 
-Basically the installation of ROS. Will write this as I go along getting the stuff to work on the virtual machine. But actually it should not be much more than the basic ROS installation.
-
 ****
 
 ## Running the Program:
