@@ -1,5 +1,5 @@
 # Capstone Project
-Repository for the repository of the project submitted as the capstone of the Udacity course on C++.
+Repository for the project submitted as the capstone of the Udacity course on C++.
 
 ****
 
